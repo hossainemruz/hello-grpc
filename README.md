@@ -1,6 +1,15 @@
 # hello-grpc
 A sample gRPC server and client
 
+## Resources
+
+- [Protocol Buffer](https://developers.google.com/protocol-buffers/docs/proto3)
+- [Protocol Buffer Basics: Go](https://developers.google.com/protocol-buffers/docs/gotutorial)
+- [gRPC Concepts](https://www.grpc.io/docs/guides/)
+- [gRPC Basics - Go](https://www.grpc.io/docs/tutorials/basic/go/)
+- [gRPC Go Examples](https://github.com/grpc/grpc-go/tree/master/examples)
+- [Mocking Service for gRPC](https://github.com/grpc/grpc-go/blob/master/Documentation/gomock-example.md)
+
 ## Pre-requisite
 
 - Install dependencies:
