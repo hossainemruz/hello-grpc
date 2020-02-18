@@ -1,0 +1,28 @@
+syntax="proto3";
+
+package calculator;
+
+// Services provided by calculator package
+service Calculator {
+// Add service takes two operand and returns their summation
+rpc Add(Operands) returns (Summation){}
+
+// Sum service takes a list of operands and returns their summation
+rpc Sum(Numbers) returns (Summation){}
+}
+
+// The request message containing the operands to be added
+message Operands {
+    int32 a = 1;
+    int32 b = 2;
+}
+
+// The request message containing the list of numbers to be added
+message Numbers{
+    repeated int32 num=1;
+}
+
+// The response message containing the result of the calculation
+message Summation{
+    int32 sum = 1;
+}
